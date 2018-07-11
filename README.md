@@ -1,6 +1,3 @@
-A **heavily** modified version of [beastlybeast's SignificantTrades](https://github.com/beastlybeast/SignificantTrades) with multi exchanges / pairing support & chart visualizer.<br/>
-I did that mostly for fun and training, but combining many exchanges data together is kind of interesting to see. 
-
 # SignificantTrades [![Build Status](https://travis-ci.org/Tucsky/SignificantTrades.svg?branch=master)](https://travis-ci.org/Tucsky/SignificantTrades)
 Live trades visualizer.<br>
 Currently supporting Bitstamp, Kraken, Huobi, Hitbtc, Okex, Bitmex, Binance, Bitfinex, Gdax ([see server/src/exchanges/](server/src/exchanges))
@@ -66,13 +63,4 @@ All settings are optional and can be changed in the [server configuration file](
 }
 ```
 
-*Wanna contribute ?*<br>
-- [x] Publish a demo on github ([its up!](https://tucsky.github.io/SignificantTrades/))
-- [ ] Improve client performances (always room for improvements)
-- [ ] Inter-exchanges volume averaged price (kind of work but [can definetly be improved](https://i.imgur.com/J5lBuWr.gif)
-- [ ] Alerts & push notifications
-- [ ] Support more exchanges
-- [ ] Multiple channels monitoring at once
 
-*Like whats been done here ?* Donate BTC (segwit)<br>
-[3GLyZHY8gRS96sH4J9Vw6s1NuE4tWcZ3hX](bitcoin:3GLyZHY8gRS96sH4J9Vw6s1NuE4tWcZ3hX)
